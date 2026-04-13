@@ -1,0 +1,29 @@
+# Common OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+
+# Dependency directories (redundant but safe)
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.production
+.env.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+client/node_modules/
+client/dist/
+server/node_modules/
+server/dist/
